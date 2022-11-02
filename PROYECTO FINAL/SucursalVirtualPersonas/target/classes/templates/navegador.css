@@ -1,0 +1,165 @@
+.estructura{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.imgLogo{
+   
+    max-width: 15%;
+    max-height: 15%;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    forced-color-adjust: black;
+    font-weight: normal;
+}
+
+h2{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80%;
+    color: white;
+    font-weight: normal;
+    padding: 1%;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60%;
+    forced-color-adjust: black;
+    font-weight: normal;
+}
+
+.seccionDos{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    border-top-width: 10px;
+    border-right-width: 1rem;
+    border-color: black;
+    
+}
+
+.btnContinuar{
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 1rem;
+    background-color: #f3ba00;
+    color: black;
+    border: none;
+    margin-left: 35%;
+    size: 0.7rem;
+    
+}
+
+.preguntas{
+    margin-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80%;
+    color: grey;
+    font-weight: normal;
+    padding: 1%;
+    text-align: right;
+}
+
+.seccion{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    border-top-width: 10px;
+    border-right-width: 1rem;
+    border-color: black;  
+}
+
+.botones{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    background-color: #f3ba00;
+    color: black;
+    border: none;
+    margin-left: 10%;
+    size: 0.7rem;
+
+}
+.botonCancelar{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    background-color: white;
+    color: black;
+    border: 1%;
+    size: 0.7rem;
+    margin-left: 10%;
+}
+
+
+.frase{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-top-width: 10px;
+    border-right-width: 1rem;
+    border-color: black;
+}
+
+.borde{
+    border: 2px solid grey;
+}
+nav {
+    background-color: white;
+    display: grid;
+    
+}
+nav a img {
+    width: 15%;
+}
+
+body{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.titulo{
+    font-family: 'Open Sans', sans-serif;
+    forced-color-adjust: black;
+    padding-bottom: 1%;
+}
+.inicioSesion{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1.5%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    color: white;
+    background-color: black;
+    
+}
+.Fecha{
+    font-family: 'Open Sans', sans-serif;
+    forced-color-adjust: black;
+    padding-bottom: 2.5%;
+    font-size: 0.7rem;
+}
+.secciones{
+    padding-top: 1.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tituloUsuario{
+    display: grid;
+    grid-template-columns: 50%;
+}
+.seccion1 {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1.5%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    color: white;
+    background-color: black;
+    
+}
+.seccion2 {
+   
+    width: 60%;
+}
